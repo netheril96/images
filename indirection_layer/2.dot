@@ -1,0 +1,6 @@
+digraph IndirectionExample {
+    rankdir = "BT";
+    DataLayer -> ConvolutionLayer [label = "data"];
+    DataLayer -> IndirectionLayer [label = "label (index)"];
+    IndirectionLayer -> CrossEntropyLossLayer [label = "big blob"];
+}
