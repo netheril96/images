@@ -1,8 +1,13 @@
 digraph IndirectionExample {
     rankdir = "BT";
-    DataLayer -> ConvolutionLayer [label = "data"];
+    edge [fontcolor="blue"];
+    ManyOtherLayers [shape = box];
+    DataLayer -> ManyOtherLayers [label = "data"];
     DataLayer -> IndirectionLayer [label = "label (index)"];
     IndirectionLayer -> LossLayer1 [label = "labe1"];
     IndirectionLayer -> LossLayer2 [label = "label2"];
     IndirectionLayer -> LossLayer3 [label = "label3"];
+    ManyOtherLayers -> LossLayer1;
+    ManyOtherLayers -> LossLayer2;
+    ManyOtherLayers -> LossLayer3;
 }
