@@ -2,6 +2,7 @@ digraph IndirectionExample {
     rankdir = "BT";
     edge [fontcolor="blue"];
     ManyOtherLayers [shape = box];
+    IndirectionLayer [fillcolor = "gray", style="filled"];
     DataLayer -> ManyOtherLayers [label = "data"];
     DataLayer -> IndirectionLayer [label = "label (index)"];
     IndirectionLayer -> LossLayer1 [label = "labe1"];
