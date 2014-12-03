@@ -8,4 +8,4 @@ digraph Network {
     IntermediateLayers1 -> ConstrastiveLoss;
     IntermediateLayers2 -> ConstrastiveLoss;
     d3 -> ConstrastiveLoss;
-}:
+}

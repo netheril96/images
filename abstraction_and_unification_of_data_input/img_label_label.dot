@@ -8,4 +8,4 @@ digraph Network {
     IntermediateLayers -> LossLayer2;
     d2 -> LossLayer1;
     d3 -> LossLayer2;
-}:
+}
