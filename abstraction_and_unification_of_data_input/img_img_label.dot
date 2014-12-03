@@ -1,0 +1,11 @@
+digraph Network {
+    rankdir=BT;
+    d1 [label="DataSequence\n(image)", style="filled", fillcolor="#00BBFF"];
+    d2 [label="DataSequence\n(image)", style="filled", fillcolor="#00BBFF"];
+    d3 [label="DataSequence\n(binary)", style="filled", fillcolor="#00BBFF"];
+    d1 -> IntermediateLayers1;
+    d2 -> IntermediateLayers2;
+    IntermediateLayers1 -> ConstrastiveLoss;
+    IntermediateLayers2 -> ConstrastiveLoss;
+    d3 -> ConstrastiveLoss;
+}:

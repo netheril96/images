@@ -1,0 +1,8 @@
+digraph Network {
+    rankdir=BT;
+    d1 [label="DataSequence\n(image)", style="filled", fillcolor="#00BBFF"];
+    d2 [label="DataSequence\n(label)", style="filled", fillcolor="#00BBFF"];
+    d1 -> IntermediateLayers;
+    IntermediateLayers -> LossLayer;
+    d2 -> LossLayer;
+}:

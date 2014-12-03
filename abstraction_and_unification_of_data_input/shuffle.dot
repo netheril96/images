@@ -1,0 +1,10 @@
+digraph Network {
+    rankdir=BT;
+    d0 [label="DataSequence\n(source: random)", style="filled", fillcolor="#00BBFF"];
+    d1 [label="DataMapping", style="filled", fillcolor="green"];
+    d2 [label="DataMapping", style="filled", fillcolor="green"];
+    d3 [label="DataMapping", style="filled", fillcolor="green"];
+    d0 -> d1;
+    d0 -> d2;
+    d0 -> d3;
+}
