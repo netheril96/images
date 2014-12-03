@@ -1,10 +1,10 @@
 digraph Network {
     rankdir=BT;
-    d0 [label="DataSequence\n(train)", style="filled", fillcolor="#00BBFF"];
+    d0 [label="DataSequence\n(train)", style="filled", fillcolor="#00FFFF"];
     d1 [label="DataSequence\n(test)", style=dashed];
-    d2 [label="DataMapping", style="filled", fillcolor="green"];
-    d3 [label="DataMapping", style="filled", fillcolor="green"];
-    d4 [label="DataMapping", style="filled", fillcolor="green"];
+    d2 [label="DataMapping", style="filled", fillcolor="#7FFFD4"];
+    d3 [label="DataMapping", style="filled", fillcolor="#7FFFD4"];
+    d4 [label="DataMapping", style="filled", fillcolor="#7FFFD4"];
 
     d0 -> d2;
     d0 -> d3;

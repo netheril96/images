@@ -1,8 +1,8 @@
 digraph Network {
     rankdir=BT;
-    d1 [label="DataSequence\n(image)", style="filled", fillcolor="#00BBFF"];
-    d2 [label="DataSequence\n(label1)", style="filled", fillcolor="#00BBFF"];
-    d3 [label="DataSequence\n(label2)", style="filled", fillcolor="#00BBFF"];
+    d1 [label="DataSequence\n(image)", style="filled", fillcolor="#00FFFF"];
+    d2 [label="DataSequence\n(label1)", style="filled", fillcolor="#00FFFF"];
+    d3 [label="DataSequence\n(label2)", style="filled", fillcolor="#00FFFF"];
     d1 -> IntermediateLayers;
     IntermediateLayers -> LossLayer1;
     IntermediateLayers -> LossLayer2;

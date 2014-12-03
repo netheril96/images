@@ -11,13 +11,13 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-126.912 391.466,-126.912 391.466,4 -4,4"/>
 <!-- d0 -->
 <g id="node1" class="node"><title>d0</title>
-<ellipse fill="#00bbff" stroke="black" cx="116.733" cy="-25.4558" rx="67.8626" ry="25.4118"/>
+<ellipse fill="#00ffff" stroke="black" cx="116.733" cy="-25.4558" rx="67.8626" ry="25.4118"/>
 <text text-anchor="middle" x="116.733" y="-28.2558" font-family="Times,serif" font-size="14.00">DataSequence</text>
 <text text-anchor="middle" x="116.733" y="-14.2558" font-family="Times,serif" font-size="14.00">(train)</text>
 </g>
 <!-- d2 -->
 <g id="node3" class="node"><title>d2</title>
-<ellipse fill="green" stroke="black" cx="58.7329" cy="-104.912" rx="58.9668" ry="18"/>
+<ellipse fill="#7fffd4" stroke="black" cx="58.7329" cy="-104.912" rx="58.9668" ry="18"/>
 <text text-anchor="middle" x="58.7329" y="-100.712" font-family="Times,serif" font-size="14.00">DataMapping</text>
 </g>
 <!-- d0&#45;&gt;d2 -->
@@ -27,7 +27,7 @@
 </g>
 <!-- d3 -->
 <g id="node4" class="node"><title>d3</title>
-<ellipse fill="green" stroke="black" cx="193.733" cy="-104.912" rx="58.9668" ry="18"/>
+<ellipse fill="#7fffd4" stroke="black" cx="193.733" cy="-104.912" rx="58.9668" ry="18"/>
 <text text-anchor="middle" x="193.733" y="-100.712" font-family="Times,serif" font-size="14.00">DataMapping</text>
 </g>
 <!-- d0&#45;&gt;d3 -->
@@ -37,7 +37,7 @@
 </g>
 <!-- d4 -->
 <g id="node5" class="node"><title>d4</title>
-<ellipse fill="green" stroke="black" cx="328.733" cy="-104.912" rx="58.9668" ry="18"/>
+<ellipse fill="#7fffd4" stroke="black" cx="328.733" cy="-104.912" rx="58.9668" ry="18"/>
 <text text-anchor="middle" x="328.733" y="-100.712" font-family="Times,serif" font-size="14.00">DataMapping</text>
 </g>
 <!-- d0&#45;&gt;d4 -->

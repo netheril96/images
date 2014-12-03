@@ -11,7 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-213.823 469.863,-213.823 469.863,4 -4,4"/>
 <!-- d1 -->
 <g id="node1" class="node"><title>d1</title>
-<ellipse fill="#00bbff" stroke="black" cx="232.931" cy="-25.4558" rx="67.8626" ry="25.4118"/>
+<ellipse fill="#00ffff" stroke="black" cx="232.931" cy="-25.4558" rx="67.8626" ry="25.4118"/>
 <text text-anchor="middle" x="232.931" y="-28.2558" font-family="Times,serif" font-size="14.00">DataSequence</text>
 <text text-anchor="middle" x="232.931" y="-14.2558" font-family="Times,serif" font-size="14.00">(image)</text>
 </g>
@@ -27,7 +27,7 @@
 </g>
 <!-- d2 -->
 <g id="node2" class="node"><title>d2</title>
-<ellipse fill="#00bbff" stroke="black" cx="67.9313" cy="-112.368" rx="67.8626" ry="25.4118"/>
+<ellipse fill="#00ffff" stroke="black" cx="67.9313" cy="-112.368" rx="67.8626" ry="25.4118"/>
 <text text-anchor="middle" x="67.9313" y="-115.168" font-family="Times,serif" font-size="14.00">DataSequence</text>
 <text text-anchor="middle" x="67.9313" y="-101.168" font-family="Times,serif" font-size="14.00">(label1)</text>
 </g>
@@ -43,7 +43,7 @@
 </g>
 <!-- d3 -->
 <g id="node3" class="node"><title>d3</title>
-<ellipse fill="#00bbff" stroke="black" cx="397.931" cy="-112.368" rx="67.8626" ry="25.4118"/>
+<ellipse fill="#00ffff" stroke="black" cx="397.931" cy="-112.368" rx="67.8626" ry="25.4118"/>
 <text text-anchor="middle" x="397.931" y="-115.168" font-family="Times,serif" font-size="14.00">DataSequence</text>
 <text text-anchor="middle" x="397.931" y="-101.168" font-family="Times,serif" font-size="14.00">(label2)</text>
 </g>
